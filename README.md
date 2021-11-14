@@ -5,7 +5,7 @@
 # Instalar Google Chrome
 
 ```bash
-cat << EOF > /etc/apt/sources.list.d/google-chrome.list
+cat << EOF | sudo tee /etc/apt/sources.list.d/google-chrome.list
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 EOF
 
